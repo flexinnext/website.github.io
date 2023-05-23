@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>WebSite | Portfolio</title>
+
+	<script src="libs/gsap/gsap.min.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	
+	<script src="js/app.js" defer></script>
+	
+
+</head>
+<body>
+
+    <!-- SOCIAL ICONS -->
+
+	<ul class="ct-socials">
+		<li>
+		  <a href="https://www.linkedin.com/in/artemmickiewicz/" target="_blank"><i class="fa fa-linkedin"></i></a>
+		</li>
+		<li>
+		  <a href="https://github.com/flexinnext" target="_blank"><i class="fa fa-github"></i></a>
+		</li>
+		<li>
+		  <a href="https://www.facebook.com/flexinnext" target="_blank"><i class="fa fa-facebook"></i></a>
+		</li>
+		<li>
+		  <a href="mailto:gritsuk01@gmail.com" target="_blank"><i class="fa fa-google"></i></a>
+		</li>
+	</ul>
+
+	<!-- GALLERY -->
+
+	<div class="wrapper">
+		<div class="content">
+
+			<header class="hero-section">
+				<img data-speed=".6" class="hero" src="img/hero.png" alt="Alt" >
+				<div class="container">
+					<div data-speed=".75" class="main-header">
+						<h1 class="main-title">JUNIOR FRONTEND <br> developer</h1>
+					</div>
+				</div>
+			</header>
+		
+			<div class="portfolio">
+				<div class="container">
+					<main class="gallery">						
+	
+						<div data-speed=".9" class="gallery__left">
+							
+							<img class ="gallery__item" src="img/work/foto.jpg" alt="Alt">
+							<video class ="gallery__item" src="img/work/1.MOV" autoplay loop muted></video>
+
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">111</h2>
+								<p class="text-block__p">
+									On the WebSite features my non-commercial works, which are on github. <br> 
+									I can work with technologies: Bootstrap, Node & React.JS, JQuery, JSON & GSAP. <br>
+									All projects that are presented on the WebSite were made according to courses with: Coursera & Udemy.  <br>
+									The WebSite uses mostly Parallax Graphics. <br>
+								</p>
+							</div>
+
+							<video class ="gallery__item" src="img/work/6.MOV" autoplay loop muted></video>
+				
+						</div>
+
+						<div data-speed="1.2" class="gallery__right">
+		
+							<div class="text-block gallery__item">
+								<h1 class="text-block__h">ABOUT ME</h1>
+								<p class="text-block__p"><h3>Hi! My name is Artem Mickiewicz.</h3>  <br> Im a Belarusian living in Poland since 2018. I have been passionate about programming for some time. <br> 
+									Im particularly comfortable with web development using JS, HTML, CSS. <br>
+									I have several non-commercial projects in my portfolio on GitHub. <br>
+									Im looking for new experiences to help turn my interests into daily work. </p>
+							</div>
+							
+							<video class ="gallery__item" src="img/work/3.MOV" autoplay loop muted></video>
+							<video class ="gallery__item" src="img/work/5.MP4" autoplay loop muted></video>
+							<video class ="gallery__item" src="img/work/2.MP4" autoplay loop muted></video>
+
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">CONTACT ME <br> </h2>
+								<p class="text-block__p">
+
+									<!-- CONTACT FORM -->
+
+									<div class="container">
+										<form action="mailto:gritsuk01@gmail.com"">
+									  
+										  <label for="fname">First Name</label>
+										  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+									  
+										  <label for="lname">Last Name</label>
+										  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+									  
+										  <label for="country">Country</label>
+										  <select id="country" name="country">
+											<option value="Poland">Poland</option>
+											<option value="canada">Canada</option>
+											<option value="usa">USA</option>
+											<option value="Australia">Australia</option>
+										  </select>
+									  
+										  <label for="subject">Subject</label>
+										  <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+									  
+										  <input type="submit" value="Submit">
+									  
+										</form>
+									</div>
+								</p>
+							</div>
+							
+						</div>
+
+					</main>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- SOUND -->
+
+	<img class="soundbutton paused" src="../img/sound.gif" alt="Alt">
+	<audio class="audio" src="../media/ambient.mp3" loop></audio>
+
+    <!-- CURSOR -->
+
+	<div class="cursor"></div>
+    <div class="cursor2"></div>
+
+	<!-- INTRO -->
+
+	<div class="intro">
+		<div class="intro-text">
+		  <h1 class="hide">
+			<span class="text">MAKE</span>
+		  </h1>
+		  <h1 class="hide">
+			<span class="text">A</span>
+		  </h1>
+		  <h1 class="hide">
+			<span class="text">DIFFERENCE.</span>
+		  </h1>
+		</div>
+	</div>
+
+	<div class="slider"></div>
+
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+		integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+		crossorigin="anonymous"
+	></script>
+	<script src="../intro/app.js"></script>
+
+	<!-- FOOTER -->
+
+	<div class="footer-nav" >
+		&copy; Company, 2023 Artem Mickiewicz. All Rights Reserved.
+	</div>
+	  	
+</body>
+</html>
